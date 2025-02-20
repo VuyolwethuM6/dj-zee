@@ -6,8 +6,8 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    details: "+27 123 456 789",
-    action: "tel:+27123456789"
+    details: "+27 825 921 833",
+    action: "tel:+27825921833"
   },
   {
     icon: Mail,
@@ -19,7 +19,7 @@ const contactInfo = [
     icon: MapPin,
     title: "Location",
     details: "21522 Incora Str, Mfuleni, 7100",
-    action: "https://maps.google.com"
+    action: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3308.017394248959!2d18.674201475713897!3d-33.99208697317975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc4ff3e319fdbb%3A0xf1eea5ff9a32f0a9!2sDJ%20Zee%20Driving%20School!5e0!3m2!1sen!2sza!4v1740000237733!5m2!1sen!2sza"
   },
   {
     icon: Clock,
