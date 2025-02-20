@@ -85,7 +85,9 @@ const PricingSection = () => {
                   ))}
                 </div>
                 
-                <Button className={`w-full mt-6 ${plan.popular ? "bg-primary" : ""}`} variant={plan.popular ? "default" : "outline"}>
+                <Button className={`w-full mt-6 ${plan.popular ? "bg-primary" : ""}`} variant={plan.popular ? "default" : "outline"}
+                  onClick={() => window.location.href = 'https://wa.me/+27825921833'}
+                  >
                   Choose {plan.name}
                 </Button>
               </div>
