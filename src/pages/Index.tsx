@@ -27,11 +27,13 @@ const Index = () => {
                 Professional driving instruction in Mfuleni, Cape Town. Get your license with experienced instructors and modern vehicles.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Button size="lg" className="bg-primary hover:bg-primary/90">
+                <Button size="lg" className="bg-primary hover:bg-primary/90"
+                  onClick={() => window.location.href = 'https://wa.me/+27825921833'}>
                   Book a Lesson
                   <ArrowRight className="ml-2" size={18} />
                 </Button>
-                <Button size="lg" variant="outline">
+                <Button size="lg" variant="outline"
+                  onClick={() => window.location.href = '#pricing'}>
                   View Pricing
                 </Button>
               </div>
