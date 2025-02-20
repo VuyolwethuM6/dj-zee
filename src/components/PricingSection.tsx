@@ -57,7 +57,7 @@ const PricingSection = () => {
             <div
               key={plan.name}
               className={`relative bg-white rounded-lg border ${
-                plan.popular ? 'border-primary shadow-lg scale-105' : 'border-gray-200'
+                plan.popular ? 'border-primary shadow-lg scale-105' : 'border-gray-400'
               } p-6 transition-all duration-300 hover:shadow-md`}
             >
               {plan.popular && (
