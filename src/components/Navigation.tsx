@@ -92,9 +92,9 @@ const Navigation = () => {
 
             <div className="mt-4 flex flex-col space-y-2">
               <Button
-                className="bg-green-600 hover:bg-green-700 text-white flex items-center justify-center gap-2"
+                className="bg-red-600 hover:bg-green-700 text-white flex items-center justify-center gap-2"
                 onClick={() => {
-                  window.location.href = "tel:+1234567890"; // Replace with your number
+                  window.location.href = "tel:27825921833"; // Replace with your number
                   setIsDialogOpen(false);
                 }}
               >
@@ -103,9 +103,9 @@ const Navigation = () => {
               </Button>
 
               <Button
-                className="bg-blue-600 hover:bg-blue-700 text-white flex items-center justify-center gap-2"
+                className="bg-green-600 hover:bg-blue-700 text-white flex items-center justify-center gap-2"
                 onClick={() => {
-                  window.open("https://wa.me/1234567890", "_blank"); // Replace with your number
+                  window.open("https://wa.me/27825921833", "_blank"); // Replace with your number
                   setIsDialogOpen(false);
                 }}
               >
